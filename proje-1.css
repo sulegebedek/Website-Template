@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    background-color: #333333;
+}
+#hizala{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+#solKisim{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+#solKisim a{
+    color: #C8BAB6;
+    text-decoration: none;
+    font-size: 20px;
+}
+#solKisim h1{
+    padding: 0;
+    margin: 0;
+}
+#solKisim p{
+    color: #C8BAB6;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+nav{
+    float: right;
+    padding-top: 30px;
+}
+
+#sagKisim{
+
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #232323;
+    padding: 10px 25px;
+    float: left;
+}
+nav ul li a{
+    color: #C8BAB6;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #9B1B30;
+    
+}
+main{
+   
+    width: 100%;
+    height: auto;
+}
+#hizalaTwo{
+  
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0;
+}
+#sectionOne{
+    width: 100%;
+    height: 350px;
+    background-color: #333333;
+    padding-top: 100px;
+}
+#sectionOne h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#sectionTwo{
+    width: 100%;
+    height: 400px;
+    padding-top: 35px;
+}
+#box{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 50px;
+}
+.cerceve{
+    border: 2px solid #333333;
+    width: 100%;
+    height: 180px;
+    padding: 2px;
+}
+.resim{
+    background-color: #333333;
+    width: 100%;
+    height: 170px;
+    padding-top: 50px;
+}
+.resim h1{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#box h4{
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+}
+#box p{
+    color: #333333;
+}
+.LinkAyar{
+    float: right;
+    color: #9B1B30;
+}
+#sectionThree{
+
+    width: 100%;
+    height: 320px;
+}
+#partOne{
+
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+#partOne p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.RenkLink{
+    color: #9B1B30;
+}
+#partTwo{
+    border: 2px solid #333333;
+    width: 50%;
+    height: 300px;
+    float: right;
+    padding: 2px;
+}
+#resimTwo{
+    background-color: #333333;
+    width: 100%;
+    height: 292px;
+    padding-top: 120px;
+}
+#resimTwo h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+footer{
+
+    width: 100%;
+    height: 230px;
+    background-color: #333333;
+}
+#part{
+  
+    width: 33%;
+    height: 200px;
+    float: left;
+}
+#part h3{
+    color: white;
+}
+#part ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#part li{
+    margin-top: 6px;
+    color: white;
+}
+#part a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+#iconOne{
+  
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+    background-image: url(img/linkedIn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconOne:hover{
+    background-image: url(img/linkedInHover.png);
+}
+#iconTwo{
+  
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-image: url(img/github.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconTwo:hover{
+    background-image: url(img/githubHover.png);
+}
